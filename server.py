@@ -76,5 +76,8 @@ def test():
     pass
 
 
+@def test2():
+    pass
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=env.get("PORT", 3000))
